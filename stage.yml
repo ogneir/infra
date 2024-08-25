@@ -3,4 +3,5 @@
   vars:
     hostname: lf-stage
   roles:
+    - { role: 'common' }
     - { role: 'hostname' }

@@ -1,4 +1,7 @@
 ---
-- hosts: web
+- hosts: db
+  vars:
+    hostname: lf-prod
   roles:
+    - { role: 'common' }
     - { role: 'hostname' }
