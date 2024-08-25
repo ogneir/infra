@@ -1,0 +1,6 @@
+---
+- hosts: web
+  vars:
+    hostname: lf-stage
+  roles:
+    - { role: 'hostname' }

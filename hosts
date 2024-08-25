@@ -1,0 +1,2 @@
+lf-srv1 ansible_host=172.16.122.251 ansible_user=root
+lf-srv2 ansible_host=172.16.122.182 ansible_user=root
