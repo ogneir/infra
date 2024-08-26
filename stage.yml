@@ -4,4 +4,4 @@
     hostname: lf-stage
   roles:
     - { role: 'common' }
-    - { role: 'hostname' }
+    #- { role: 'swaptrasher' }
